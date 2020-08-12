@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/precache-manifest.53c0ad2ae5fbfa1e687b08b8e0a0d3bb.js"
+  "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/precache-manifest.70f28d6ff0489c87b9c6fc8cb5ab9f19.js"
 );
 
 workbox.clientsClaim();
