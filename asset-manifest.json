@@ -1,9 +1,10 @@
 {
   "main.css": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/css/main.951d709a.chunk.css",
-  "main.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/main.6f8aad69.chunk.js",
+  "main.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/main.ed8f67af.chunk.js",
   "runtime~main.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/runtime~main.c60c425b.js",
-  "static/js/2.4de96711.chunk.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/2.4de96711.chunk.js",
+  "static/css/2.8e1a6429.chunk.css": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/css/2.8e1a6429.chunk.css",
+  "static/js/2.002bd3b6.chunk.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/2.002bd3b6.chunk.js",
   "index.html": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/index.html",
-  "precache-manifest.f38295d6ea18dfa4967cb288085bebfe.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/precache-manifest.f38295d6ea18dfa4967cb288085bebfe.js",
+  "precache-manifest.53c0ad2ae5fbfa1e687b08b8e0a0d3bb.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/precache-manifest.53c0ad2ae5fbfa1e687b08b8e0a0d3bb.js",
   "service-worker.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/service-worker.js"
 }
