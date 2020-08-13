@@ -1,10 +1,20 @@
 {
-  "main.css": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/css/main.951d709a.chunk.css",
-  "main.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/main.f57cde6a.chunk.js",
-  "runtime~main.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/runtime~main.c60c425b.js",
-  "static/css/2.8e1a6429.chunk.css": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/css/2.8e1a6429.chunk.css",
-  "static/js/2.002bd3b6.chunk.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/2.002bd3b6.chunk.js",
-  "index.html": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/index.html",
-  "precache-manifest.70f28d6ff0489c87b9c6fc8cb5ab9f19.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/precache-manifest.70f28d6ff0489c87b9c6fc8cb5ab9f19.js",
-  "service-worker.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/service-worker.js"
+  "files": {
+    "main.css": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/css/main.951d709a.chunk.css",
+    "main.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/main.c0a32b11.chunk.js",
+    "runtime-main.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/runtime-main.caac66c3.js",
+    "static/css/2.5c600ed6.chunk.css": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/css/2.5c600ed6.chunk.css",
+    "static/js/2.184c8c80.chunk.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/2.184c8c80.chunk.js",
+    "index.html": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/index.html",
+    "precache-manifest.924e76cf7287a7b358f05497da6d96a6.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/precache-manifest.924e76cf7287a7b358f05497da6d96a6.js",
+    "service-worker.js": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/service-worker.js",
+    "static/js/2.184c8c80.chunk.js.LICENSE.txt": "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/static/js/2.184c8c80.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.caac66c3.js",
+    "static/css/2.5c600ed6.chunk.css",
+    "static/js/2.184c8c80.chunk.js",
+    "static/css/main.951d709a.chunk.css",
+    "static/js/main.c0a32b11.chunk.js"
+  ]
 }

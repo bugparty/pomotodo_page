@@ -11,13 +11,19 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/precache-manifest.70f28d6ff0489c87b9c6fc8cb5ab9f19.js"
+  "https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/precache-manifest.924e76cf7287a7b358f05497da6d96a6.js"
 );
 
-workbox.clientsClaim();
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
+
+workbox.core.clientsClaim();
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -25,10 +31,9 @@ workbox.clientsClaim();
  * See https://goo.gl/S9QRab
  */
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
-workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/index.html", {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("https://cdn.jsdelivr.net/gh/bugparty/pomotodo_page@gh-pages/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
